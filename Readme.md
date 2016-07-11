@@ -4,7 +4,7 @@ A dockerfile for using the Minecraft module of the AMP server management program
 ## Environment Variables
 This Dockerfile requires a CubeCoders licence, specified as the environment variable LICENCE. An example run command for this Dockerfile is:
 
-```docker run --rm -ti -e "LICENCE=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" -p 8080:8080  -p 25565:25565 -v /volumes/amp:/ampdata adamant/minecraft-amp```
+```docker run -d -e "LICENCE=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" -p 8080:8080  -p 25565:25565 -v /volumes/amp:/ampdata adamant/minecraft-amp```
 
 This dockerfile also support more environment variables to customise the minecraft servere parameters. These are:
 * **HOST** - Specifies the interface AMP and the minecraft server should listen on

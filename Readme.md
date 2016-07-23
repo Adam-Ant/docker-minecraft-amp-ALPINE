@@ -1,3 +1,6 @@
+# BROKEN AND MAY NOT BE FIXED
+See [here](https://github.com/Adam-Ant/docker-minecraft-amp) for replacement.
+
 # Minecraft AMP
 A dockerfile for using the Minecraft module of the AMP server management program, by CubeCoders. This Dockerfile is based on Alpine linux, meaning it is only a few megabytes in size!
 
